@@ -35,6 +35,8 @@ Use Apache2 to create proxies and similar.
 | ------- | ------------ | ----------- |
 | 3.8.2   | `python3`    | `pip3`      |
 
+Virtual environment is installed. Use it! Documentation is [here](https://virtualenv.pypa.io/en/latest/index.html).
+
 ### NodeJS
 Not yet installed.
 
