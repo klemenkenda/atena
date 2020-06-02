@@ -9,6 +9,10 @@ Use this to:
 * backups
 * running web services
 
+To store personal data, use `/mnt/data/users/username`.
+To store project-related stuff, use `/mnt/data/projects/projectname`.
+To store data for running services, use `/mnt/data/services/servicename`.
+
 
 ### File transfer
 For file transfer use scp (e. g. WinSCP).
