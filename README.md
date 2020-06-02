@@ -30,7 +30,10 @@ Use `sudo apache2ctl` for controlling the component (i.e. restarting).
 Use Apache2 to create proxies and similar.
 
 ### Python
-Not yet installed.
+
+| Version | Python Shell | Pip command |
+| ------- | ------------ | ----------- |
+| 3.8.2   | `python3`    | `pip3`      |
 
 ### NodeJS
 Not yet installed.
