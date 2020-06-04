@@ -60,7 +60,7 @@ unset __conda_setup
 
 After this you either re-login into your account or source the .bashrc with `source .bashrc`. Example of this file is also available on `/mnt/data/sw/anaconda.rc`, which you can also source with `source /mnt/data/sw/anaconda.rc`.
 
-You can then use `conda create -n myenv`. For further details check [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Virtual environments will be setup within your user. When activated, `python` and `python3` will point to the Anaconda's version of Python. To deactivate conda or a specific conda environment use `source deactivate`.
+You can then use `conda create -n myenv`. For further details check [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Virtual environments will be setup within your user. When activated, `python` and `python3` will point to the Anaconda's version of Python. To deactivate conda or a specific conda environment use `conda deactivate`.
 
 ### NodeJS
 Not yet installed.
