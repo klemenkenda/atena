@@ -74,7 +74,7 @@ Table of frequently used `nvm` commands.
 | `nvm install 12` | Installs the latest version of 12.x.y of NodeJS. |
 | `nvm install 8.0` | Installs the latest version of 8.0.x of NodeJS. |
 | `nvm use v12.18.0` | Uses the selected version of NodeJS (as listed in `nvm ls`). |
-| `nvm uninstlal v12.18.0` | Uninstalls the selected version of NodeJS. |
+| `nvm uninstall v12.18.0` | Uninstalls the selected version of NodeJS. |
 | `nvm deactivate` | Deactivates the current version of NodeJS. |
 | `nvm install --lts` | Install the latest long-term-support (LTS) version of NodeJS. |
 
