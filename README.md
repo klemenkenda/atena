@@ -1,5 +1,5 @@
 # Atena
-Atena server is primarily intended to support environmental projects (NAIADES, Water4Cities, NRG4CAST, PerceptiveSentinel and enviroLENS) and any other projects that develop solutions connected to processing sensor and other time-series data, data fusion, time-series prediction and stream mining.
+Atena server is primarily intended to support environmental projects (NAIADES, Water4Cities, PerceptiveSentinel and enviroLENS) and any other projects that develop solutions related to processing sensor and other time-series data, data fusion, time-series prediction and stream mining.
 
 ## Data and File System
 The 6.9T disk is mounted on `/mnt/data`.
