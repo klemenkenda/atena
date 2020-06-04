@@ -63,7 +63,19 @@ After this you either re-login into your account or source the .bashrc with `sou
 You can then use `conda create -n myenv`. For further details check [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Virtual environments will be setup within your user. When activated, `python` and `python3` will point to the Anaconda's version of Python. To deactivate conda or a specific conda environment use `conda deactivate`.
 
 ### NodeJS
-Not yet installed.
+We are using [NodeJS Version Manager (nvm)](https://github.com/nvm-sh/nvm/) for managing node. Each user has his NodeJS distributions installed on a local account. `nvm` itself is installed globally and you can invoke it by running `source /mnt/data/sw/nvm.rc`. Alternatively you can copy the content of `/mnt/data/sw/nvm.rc` at the end your `~/.bashrc` file.
+
+Table of frequently used `nvm` commands.
+| Command | Description |
+|:------- |:----------- |
+| `nvm ls` | Lists all currently installed NodeJS versions. |
+| `nvm install 12` | Installs the latest version of 12.x.y of NodeJS. |
+| `nvm install 8.0` | Installs the latest version of 8.0.x of NodeJS. |
+| `nvm use v12.18.0` | Uses the selected version of NodeJS (as listed in `nvm ls`). |
+| `nvm uninstlal v12.18.0` | Uninstalls the selected version of NodeJS. |
+| `nvm deactivate` | Deactivates the current version of NodeJS. |
+
+**Be aware to only install as little NodeJS versions on the system as needed!**
 
 ### Docker
 Not yet installed.
