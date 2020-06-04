@@ -37,6 +37,31 @@ Use Apache2 to create proxies and similar.
 
 Virtual environment is installed. Use it! Documentation is [here](https://virtualenv.pypa.io/en/latest/index.html).
 
+### Anaconda3
+Anaconda3 is installed in `/opt/anaconda3`. 
+
+To use it, you have to change your `.bashrc`, so that you add the following lines to the end:
+```sh
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+```
+
+After this you either re-login into your account or source the .bashrc with `source .bashrc`. Example of this file is also available on `/mnt/data/sw/anaconda.rc`, which you can also source with `source /mnt/data/sw/anaconda.rc`.
+
+You can then use `conda create -n myenv`. For further details check [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Virtual environments will be setup within your user. When activated, `python` and `python3` will point to the Anaconda's version of Python. To deactivate conda or a specific conda environment use `source deactivate`.
+
 ### NodeJS
 Not yet installed.
 
