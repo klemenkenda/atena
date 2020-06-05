@@ -80,6 +80,16 @@ Table of frequently used `nvm` commands.
 
 **Be aware to only install as little NodeJS versions on the system as needed!**
 
+### PostgreSQL
+
+Additional documentation is available [here](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart). PostgreSQL is installed on a default port. Ask for a username/password or to install additional modules on Slack.
+
+Data directory: `/mnt/data/postgresql/12/main`
+Start command: `sudo systemctl start postgresql`
+Status command: `sudo systemctl status postgresql`
+Stop command: `sudo systemctl stop postgresql`
+Running psql as default user: `sudo -u postgres psql`
+
 ### Docker
 Not yet installed.
 
