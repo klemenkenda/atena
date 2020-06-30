@@ -93,6 +93,22 @@ Additional documentation is available [here](https://www.digitalocean.com/commun
 ### Docker
 Not yet installed.
 
+### Elasticsearch
+
+Elasticsearch is a search engine service. Additional documentation is available [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html). Elasticsearch is installed on a default port (`9200`). No username and password is required.
+
+Before using elasticsearch, check which indexes are already in use via the following command:
+```bash
+curl http://localhost:9200/_aliases?pretty=true
+```
+
+* Data directory: `/mnt/data/elasticsearch/data`
+* Logs directory: `/mnt/data/elasticsearch/logs`
+* Configuration directory: `/etc/elasticsearch`
+* Start command: `sudo systemctl start elasticsearch.service`
+* Status command: `sudo systemctl status elasticsearch.service`
+* Stop command: `sudo systemctl stop elasticsearch.service`
+
 ## Custom services running on Atena
 
 Here are listed all the services running on Atena (including URL/port).
