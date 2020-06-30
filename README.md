@@ -1,6 +1,12 @@
 # Atena
 Atena server is primarily intended to support environmental projects (NAIADES, Water4Cities, PerceptiveSentinel and enviroLENS) and any other projects that develop solutions related to processing sensor and other time-series data, data fusion, time-series prediction and stream mining.
 
+## Terminal Environment
+It might be that the default terminal shell of a new user is set to `sh`. This shell works different that for instance `bash` (the `source` command does not work, etc). To change the default terminal shell of the user to `bash` run the following command and restart the terminal:
+```bash
+chsh -s /usr/bin/bash
+```
+
 ## Data and File System
 The 6.9T disk is mounted on `/mnt/data`.
 
