@@ -26,6 +26,22 @@ To store data for running services, use `/mnt/data/services/servicename`.
 For file transfer use scp (e. g. WinSCP).
 For development environment use VS Code with MS extension [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). 
 
+### Zip and Unzip
+For compressing and decompressing files use `gzip`. 
+
+To compress the file or folders: 
+```bash
+# -k: keep the uncompressed files (optional)
+# -l: get stats how much space was saved (optional)
+gzip -k -l file
+```
+
+To decompress the zip file:
+```bash
+# -k: keep the compressed files (optional)
+# -l: get stats of decompression (optional)
+gunzip -k -l file.gz
+```
 
 ## Software
 Any intended new installation of a software should be reported to Slack. 
