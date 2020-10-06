@@ -139,3 +139,8 @@ Here are listed all the services running on Atena (including URL/port).
 | ------------ |:----------- | ------------ | ----:| --------- |
 | iot-rapids   | IoT platform for multiple EU projects (NAIADES, Water4Cities) | atena.?.? | 80 | Klemen |
 | GPS tracking | Tracking of GPS devices | atena.?.? | 8888 | Klemen |
+| eLENS miner system | Connecting eLENS services | atena.?.? | 4300 | Erik |
+| eLENS text embeddings | Creates English Text Embeddings | atena.?.? | 4001 | Erik |
+| eLENS document search | Searches through legal documents | atena.?.? | 4100 | Erik |
+| eLENS document similarity | Calculates document similarity | atena.?.? | 4200 | Erik |
+
