@@ -131,6 +131,24 @@ curl http://localhost:9200/_aliases?pretty=true
 * Status command: `sudo systemctl status elasticsearch.service`
 * Stop command: `sudo systemctl stop elasticsearch.service`
 
+### Supervisor
+[Supervisor](http://supervisord.org/) is a client/server system that allows its users to monitor and control a number of processes. It use used
+to run the services in production mode and restarts the service if it crashes. It provides various features and can be used through the linux terminal.
+
+Each process requires its own config file in `/etc/supervisor/conf.d/` folder (examples of existing services are already available in the folder).
+The config files documentation is available [here](http://supervisord.org/configuration.html).
+
+Once the config file is setup, one can start the process with the following terminal commands (lets say the servies name is `service`):
+
+* Reread processes: `sudo supervisorctl reread` - reads which processes have its own config files
+* Update processes: `sudo supervisorctl update` - updates the supervisor to take into account new and changed config files
+* Start process: `sudo supervisorctl start service`
+* End process: `sudo supervisorctl stop service`
+* Log process: `sudo supervisorctl tail -{number} service` where `{number}` is the number of bytes one would like to output, e.g. 5000. Example: `sudo supervisorctl tail -5000 service`
+* Start all processes: `sudo supervisorctl start all`
+* End all processes: `sudo supervisorctl stop all`
+
+
 ## Custom services running on Atena
 
 Here are listed all the services running on Atena (including URL/port).
@@ -140,7 +158,11 @@ Here are listed all the services running on Atena (including URL/port).
 | iot-rapids   | IoT platform for multiple EU projects (NAIADES, Water4Cities) | atena.?.? | 80 | Klemen |
 | GPS tracking | Tracking of GPS devices | atena.?.? | 8888 | Klemen |
 | eLENS miner system | Connecting eLENS services | atena.?.? | 4300 | Erik |
+| eLENS text embeddings | Creates Text Embeddings Interface | atena.?.? | 4000 | Erik |
 | eLENS text embeddings | Creates English Text Embeddings | atena.?.? | 4001 | Erik |
+| eLENS text embeddings | Creates Slovene Text Embeddings | atena.?.? | 4002 | Erik |
+| eLENS text embeddings | Creates German Text Embeddings | atena.?.? | 4003 | Erik |
+| eLENS text embeddings | Creates Greek Text Embeddings | atena.?.? | 4004 | Erik |
 | eLENS document search | Searches through legal documents | atena.?.? | 4100 | Erik |
 | eLENS document similarity | Calculates document similarity | atena.?.? | 4200 | Erik |
 
