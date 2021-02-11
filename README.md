@@ -131,6 +131,15 @@ curl http://localhost:9200/_aliases?pretty=true
 * Status command: `sudo systemctl status elasticsearch.service`
 * Stop command: `sudo systemctl stop elasticsearch.service`
 
+### Kafka
+Kafka is a distributed streaming platform, mainly used as a high-performance messaging system. Kafka was installed using [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-20-04). It uses default ports: `9092` for Kafka and `2181` for Zookeeper.
+
+* Logs (data) directory: `/mnt/data/kafka/logs`
+* Installation directory: `/home/kafka/kafka/`
+* Start command: `sudo systemctl start kafka`
+* Status command: `sudo systemctl status kafka`
+* Stop command: `sudo systemctl stop kafka`
+
 ### Supervisor
 [Supervisor](http://supervisord.org/) is a client/server system that allows its users to monitor and control a number of processes. It use used
 to run the services in production mode and restarts the service if it crashes. It provides various features and can be used through the linux terminal.
