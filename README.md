@@ -140,6 +140,9 @@ Kafka is a distributed streaming platform, mainly used as a high-performance mes
 * Status command: `sudo systemctl status kafka`
 * Stop command: `sudo systemctl stop kafka`
 
+Logging in as `kafka` user to use command-line utilities: `sudo su - kafka`.
+Try running command `~/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic TutorialTopic --from-beginning`
+
 ### Supervisor
 [Supervisor](http://supervisord.org/) is a client/server system that allows its users to monitor and control a number of processes. It use used
 to run the services in production mode and restarts the service if it crashes. It provides various features and can be used through the linux terminal.
