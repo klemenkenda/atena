@@ -169,6 +169,8 @@ Here are listed all the services running on Atena (including URL/port).
 | ------------ |:----------- | ------------ | ----:| --------- |
 | iot-rapids   | IoT platform for multiple EU projects (NAIADES, Water4Cities) | atena.?.? | 80 | Klemen |
 | GPS tracking | Tracking of GPS devices | atena.?.? | 8888 | Klemen |
+| Zookeeper | Kafka Zookeeper | localhost | 2181 | Klemen |
+| Kafka | Kafka | localhost | 9092 | Klemen |
 | eLENS miner system | Connecting eLENS services | atena.?.? | 4300 | Erik |
 | eLENS text embeddings | Creates Text Embeddings Interface | atena.?.? | 4000 | Erik |
 | eLENS text embeddings | Creates English Text Embeddings | atena.?.? | 4001 | Erik |
