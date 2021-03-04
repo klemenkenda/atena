@@ -87,7 +87,9 @@ After this you either re-login into your account or source the .bashrc with `sou
 You can then use `conda create -n myenv`. For further details check [conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Virtual environments will be setup within your user. When activated, `python` and `python3` will point to the Anaconda's version of Python. To deactivate conda or a specific conda environment use `conda deactivate`.
 
 ### NodeJS
-We are using [NodeJS Version Manager (nvm)](https://github.com/nvm-sh/nvm/) for managing node. Each user has his NodeJS distributions installed on a local account. `nvm` itself is installed globally and you can invoke it by running `source /mnt/data/sw/nvm.rc`. Alternatively you can copy the content of `/mnt/data/sw/nvm.rc` at the end your `~/.bashrc` file.
+We are using [NodeJS Version Manager (nvm)](https://github.com/nvm-sh/nvm/) for managing node. Each user has his NodeJS distributions installed on a local account. `nvm` itself is installed globally and you can invoke it by running `source /mnt/data/sw/nvm.rc`. Alternatively you can copy the content of `/mnt/data/sw/nvm.rc` at the end your `~/.bashrc` file. 
+
+> Note: Some users have problems using globally installed `nvm`. In this case, follow the [this link](https://github.com/nvm-sh/nvm/) and install it locally for you account.
 
 Table of frequently used `nvm` commands.
 | Command | Description |
