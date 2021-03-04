@@ -179,4 +179,8 @@ Here are listed all the services running on Atena (including URL/port).
 | eLENS text embeddings | Creates Greek Text Embeddings | atena.?.? | 4004 | Erik |
 | eLENS document search | Searches through legal documents | atena.?.? | 4100 | Erik |
 | eLENS document similarity | Calculates document similarity | atena.?.? | 4200 | Erik |
+| NAIADES FIWARE adapter | End-point for FIWARE for NAIADES | atena.?.? | 5003 | Gal |
+| NAIADES WatchDog API | End-point for NAIADES WatchDog | atena.?.? | 5004 | Mark |
+| NAIADES WatchDog GUI | GUI for NAIADES WatchDog | atena.?.? | 5005 | Mark |
+
 
