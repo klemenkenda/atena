@@ -104,6 +104,10 @@ Table of frequently used `nvm` commands.
 
 **Be aware to only install as little NodeJS versions on the system as needed!**
 
+### Bazel
+Bazel is an open-source build and test tool similar to Make, Maven, and Gradle. It uses a human-readable, high-level build language. Bazel supports projects in multiple languages and builds outputs for multiple platforms. Bazel supports large codebases across multiple repositories, and large numbers of users. (src: https://docs.bazel.build/versions/4.0.0/bazel-overview.html)<br>
+On Atena Bazel 3.7.2. is installed and was used to build custom tensorflow wheel since Atena does not support AVX2. 
+
 ### PostgreSQL
 
 Additional documentation is available [here](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart). PostgreSQL is installed on a default port. Ask for a username/password or to install additional modules on Slack.
