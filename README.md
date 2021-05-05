@@ -119,7 +119,11 @@ Additional documentation is available [here](https://www.digitalocean.com/commun
 * Running psql as default user: `sudo -u postgres psql`
 
 ### Docker
-Not yet installed.
+[Docker](https://docs.docker.com/get-started/overview/) is an open platform for developing, shipping, and running applications. Docker was installed using [this guide](https://docs.docker.com/engine/install/ubuntu/) (install using repository). The current docker version installed is 20.10.6.<br>
+Running images with docker is described [here](https://docs.docker.com/engine/reference/commandline/run/)
+
+### Grafana
+Grafana is the open source analytics & monitoring solution for every database. On Atena it is run a a docker container, created from the image available on [docker hub](https://hub.docker.com/r/grafana/grafana)
 
 ### Elasticsearch
 
@@ -190,5 +194,4 @@ Here are listed all the services running on Atena (including URL/port).
 | NAIADES FIWARE adapter | End-point for FIWARE for NAIADES | atena.?.? | 5003 | Gal |
 | NAIADES Data Docs server | Server for carrying out requests to FIWARE api for NAIADES | atena.?.? | 5004 | Mark |
 | NAIADES Data Docs app | GUI for FIWARE data for NAIADES | atena.?.? | 5005 | Mark |
-
-
+| NAIADES Grafana | End-point for Grafana for NAIADES | atena.?.? | 5006 | Gal |
