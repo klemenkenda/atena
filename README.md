@@ -120,10 +120,16 @@ Additional documentation is available [here](https://www.digitalocean.com/commun
 
 ### Docker
 [Docker](https://docs.docker.com/get-started/overview/) is an open platform for developing, shipping, and running applications. Docker was installed using [this guide](https://docs.docker.com/engine/install/ubuntu/) (install using repository). The current docker version installed is 20.10.6.<br>
-Running images with docker is described [here](https://docs.docker.com/engine/reference/commandline/run/)
+Running images with docker is described [here](https://docs.docker.com/engine/reference/commandline/run/)<br><br>
+**Docker compose:** In addition docker compose 1.29.2 was also installed using [this](https://docs.docker.com/compose/install/) instructions.
+
+### Influxdb
+Influxdb is a time series database. On Atena a 2.0.6 version is deployed with docker. The docker compose file is located at /mnt/data/docker_services/naiades_influxdb_grafana/docker-compose.yml. The storage is mounted to docker volumes influxdb_storage and configurations at influxdb_configurations.<br>
+List of buckets for organization naiades:
+* braila
 
 ### Grafana
-Grafana is the open source analytics & monitoring solution for every database. On Atena it is run a a docker container, created from the image available on [docker hub](https://hub.docker.com/r/grafana/grafana)
+Grafana is the open source analytics & monitoring solution for every database. On Atena it is run a a docker container, created from the latest image available on [docker hub](https://hub.docker.com/r/grafana/grafana). The docker compose file is located at /mnt/data/docker_services/naiades_influxdb_grafana/docker-compose.yml. The grafana storage directory is mounted at docker volumes grafana.
 
 ### Elasticsearch
 
