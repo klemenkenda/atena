@@ -187,14 +187,6 @@ Here are listed all the services running on Atena (including URL/port).
 | GPS tracking | Tracking of GPS devices | atena.?.? | 8888 | Klemen |
 | Zookeeper | Kafka Zookeeper | localhost | 2181 | Klemen |
 | Kafka | Kafka | localhost | 9092 | Klemen |
-| eLENS miner system | Connecting eLENS services | atena.?.? | 4300 | Erik |
-| eLENS text embeddings | Creates Text Embeddings Interface | atena.?.? | 4000 | Erik |
-| eLENS text embeddings | Creates English Text Embeddings | atena.?.? | 4001 | Erik |
-| eLENS text embeddings | Creates Slovene Text Embeddings | atena.?.? | 4002 | Erik |
-| eLENS text embeddings | Creates German Text Embeddings | atena.?.? | 4003 | Erik |
-| eLENS text embeddings | Creates Greek Text Embeddings | atena.?.? | 4004 | Erik |
-| eLENS document search | Searches through legal documents | atena.?.? | 4100 | Erik |
-| eLENS document similarity | Calculates document similarity | atena.?.? | 4200 | Erik |
 | NAIADES WatchDog API | End-point for NAIADES WatchDog | atena.?.? | 5001 | Mark |
 | NAIADES WatchDog GUI | GUI for NAIADES WatchDog | atena.?.? | 5002 | Mark |
 | NAIADES FIWARE adapter | End-point for FIWARE for NAIADES | atena.?.? | 5003 | Gal |
